@@ -1,0 +1,203 @@
+body {
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+  background-color: black;
+}
+
+#clock {
+  position: absolute;
+  left: 90%;
+  z-index: 2;
+}
+
+#cor {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  margin-top: 6.5%;
+  left: 2vw;
+  z-index: 2;
+}
+
+.circulo {
+  background: transparent;
+  position: absolute;
+  width: 3.6vw;
+  height: 3.6vW;
+  border-radius: 50%;
+  margin-top: 7.2%;
+  left: 2.7vw;
+  z-index: 3;
+}
+
+#image1 {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+}
+
+#texto1 {
+  position: absolute;
+  padding: 2.5% 0 0 30%;
+  color: white;
+  z-index: 2;
+}
+
+#texto2 {
+  position: absolute;
+  padding: 9% 0 0 30%;
+  color: white;
+  z-index: 2;
+}
+
+.btn1 {
+  position: absolute;
+  cursor: pointer;
+  width: 6vw;
+  height: 6vw;
+  margin-top: 2%;
+  z-index: 2;
+}
+
+.btn2_ON {
+  position: absolute;
+  cursor: pointer;
+  width: 6vw;
+  height: 6vw;
+  margin-top: 8.5%;
+  z-index: 2;
+}
+
+.btn2_OFF {
+  position: absolute;
+  cursor: default;
+  width: 6vw;
+  height: 6vw;
+  margin-top: 8.5%;
+  opacity: 0.3;
+  z-index: 2;
+}
+
+#image2 {
+  position: absolute;
+  width: 100%;
+  margin-top: 15.85vw;
+  left: 0px;
+}
+
+.passo {
+  position: absolute;
+  height: 1.75vw;
+  margin-top: 16.4vw;
+}
+
+.tempo_ON {
+  position: absolute;
+  height: 1.75vw;
+  margin-top: 16.4vw;
+}
+
+.tempo_OFF {
+  position: absolute;
+  height: 1.75vw;
+  margin-top: 16.4vw;
+  content: url("");
+}
+
+#image3 {
+  position: absolute;
+  width: 100%;
+  height: 82vh;
+  margin-top: 19vw;
+  left: 0px;
+}
+
+#janela {
+  position: absolute;
+  width: 50%;
+  margin-top: 30vw;
+  left: 25%;
+  z-index: 2;
+}
+
+.info {
+  position: absolute;
+  color: white;
+  font-size: 2.5vw;
+  padding-left: 27vw;
+  margin-top: 35vw;
+  z-index: 3;
+}
+
+.ok:enabled{
+  position: absolute;
+  margin-top: 34.5vw;
+  z-index: 3;
+  border-color: #B4CDCD;
+  background-color: #272262; 
+  color: CornflowerBlue;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 1.7vw;
+  cursor: pointer;
+  outline: none;
+  border-radius: 20px;
+  border-width: 7px;
+}
+
+.ok:disabled{
+  osition: absolute;
+  margin-top: 34.5vw;
+  z-index: 3;
+  background-color: CornflowerBlue;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 1.7vw;
+  outline: none;
+  border-radius: 20px;
+  border-width: 10px;
+}
+
+::-webkit-input-placeholder {
+   color: red;
+}
+
+.caixa {
+  position: absolute;
+  color: red;
+  width: 30vw;
+  font-size: 2.5vw;
+  margin-left: 37vw;
+  margin-top: 34.5vw;
+  z-index: 3;
+}
+
+#lista {
+  position: absolute;
+  font-size: 3vw;
+  padding-left: 5vw;
+}
+
+#game {
+  position: absolute;
+  height: 78vh;
+  width: 62%;
+  margin-top: 20vw;
+  margin-left: 35%;
+}
+
+#players {
+  position: absolute;
+  height: 78vh;
+  width: 35%;
+  margin-top: 20vw;
+  margin-left: 0.9vw;
+}
+
+#screen {
+  border-left: 1px dashed whitesmoke;
+  cursor: crosshair;
+  width: 100%;
+  height: 100%;
+  margin-left: 1vw;
+}
